@@ -1,0 +1,45 @@
+body{
+    background-color: #ccc;
+}
+
+.dome_1{
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+.dome_2{
+    width:60%;
+    margin: auto;
+    margin-top: 150px ;
+}
+#task-input{
+    padding: 10px 20px;
+    margin-left:30px;
+    border-radius: 10px;
+}
+.dome_2 button{ 
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#task-list {
+    list-style-type: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: aliceblue;
+}
+.task-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.selected {
+    background-color: rgb(8, 171, 8);
+    border-radius: 40px;
+    color: red;
+}
+.task-item button {
+    margin-left: 10px;
+}
